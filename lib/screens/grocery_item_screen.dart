@@ -114,6 +114,7 @@ if (widget.isUpdating) {
  child: ListView(
  children: [
  // TODO: Add name TextField
+ buildNameField(),
  // TODO: Add Importance selection
  buildImportanceField(),
  // TODO: Add date picker
